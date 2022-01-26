@@ -1,6 +1,6 @@
 from enum import Enum
 
 class Environment(Enum):
-    PRODUCTION = 'production'
+    production = 'production'
     STAGING = 'staging'
     DEVELOP = 'DEVELOP'
