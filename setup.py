@@ -1,3 +1,4 @@
+import setuptools
 
 
 with open("README.md") as fp:
@@ -5,14 +6,14 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="dataplatform",
+    name="data_platform",
     version="0.0.1",
     description="An empty CDK Python app",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="author",
-    package_dir={"": "dataplatform"},
-    packages=setuptools.find_packages(where="dataplatform"),
+    package_dir={"": "data_platform"},
+    packages=setuptools.find_packages(where="data_platform"),
     install_requires=[
         "aws-cdk.core==1.102.0",
     ],
